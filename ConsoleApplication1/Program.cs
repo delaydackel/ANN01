@@ -98,7 +98,7 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            List<int> nodes = new List<int>(new int[] { 1, 7, 4, 2 });
+            List<int> nodes = new List<int>(new int[] { 7 , 15 , 3 });
             Network net = new Network(nodes);
             net.PrintNetwork();
             Console.ReadKey();
